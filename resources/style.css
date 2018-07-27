@@ -1,0 +1,41 @@
+html {
+  font-size: 16px;
+
+}
+
+.header {
+  position: fixed;
+  z-index: 100;
+  background-color: #FDFEFE;
+  display: flex;
+  align-items: center;
+  height: 4rem;
+
+}
+
+.logo {
+  justify-content: flex-start;
+  height: 2rem;
+  margin-left: 1.5rem;
+  display: inline;
+
+}
+
+.logo .first-word {
+  color: #17202A;
+  font-weight: bold;
+  font-size: 1rem;
+
+}
+.links {
+  justify-content: flex-end;
+  font-size: 1rem;
+  display: inline;
+
+}
+
+.links:hover {
+  color: #BDC3C7;
+  transition: color 1s ease-in 0.5s; 
+
+}

@@ -1,0 +1,67 @@
+html {
+  font-size: 16px;
+
+}
+
+.flexcontainer {
+  display: flex;
+  justify-content: ;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+
+}
+
+/* the header */
+.header {
+  position: fixed;
+  z-index: 100;
+  background-color: #FDFEFE;
+  height: 4rem;
+  width: 100%;
+  vertical-align: baseline;
+
+}
+/* colmar logo (picture and text) */
+.logo {
+  height: ;
+  display: inline-block;
+  font-size: 1rem;
+  margin-left: 1.5rem;
+  flex-grow: 1;
+
+}
+
+.logo .first-word {
+  color: #17202A;
+  font-weight: bold;
+  font-family: 'Raleway', sans-serif;
+
+}
+
+.logo .second-word {
+  font-family: 'Raleway', sans-serif;
+  color: gray;
+}
+
+/* the "links" */
+.links {
+  font-size: 1rem;
+  font-family: 'Raleway', sans-serif;
+  margin-right: 1.5rem;
+
+}
+
+.links a:hover {
+  color: #BDC3C7;
+  transition: color 1s ease-in 0.5s;
+
+}
+
+.links a {
+  padding-right: 1rem;
+  display: inline-block;
+
+}
+
+/* the main banner */
