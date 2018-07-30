@@ -76,20 +76,21 @@ html {
   background-color: gray;
 }
 
-.image {
-  margin: 64px 24px 32px 24px;
-  display: flex;
+.image img {
+  width: 100%;
 
 }
 
 .banner img {
-  width: 1050px;
+  width: 60%;
 
 }
+.image {
+  padding: 64px 24px 32px 24px;
 
+}
 .text {
-  width: 440px;
-  display: flex;
+  width: 40%;
   flex-direction: column;
 
 }
