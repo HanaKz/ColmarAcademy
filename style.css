@@ -81,12 +81,10 @@ html {
 
 }
 
-.banner img {
-  width: 60%;
 
-}
 .image {
   padding: 64px 24px 32px 24px;
+  width: 60%;
 
 }
 .text {
