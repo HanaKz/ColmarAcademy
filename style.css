@@ -6,7 +6,6 @@ html {
 .flexcontainer {
   display: flex;
   justify-content: ;
-  flex-wrap: wrap;
   align-items: center;
   width: 100%;
 
@@ -73,7 +72,9 @@ html {
 .banner {
   display: flex;
   width: 100%;
-  background-color: gray;
+  background-color: #e6e6e6;
+  padding-top: 4rem;
+
 }
 
 .image img {
@@ -81,14 +82,87 @@ html {
 
 }
 
-
 .image {
-  padding: 64px 24px 32px 24px;
+  width: 60%;
+  padding: 2rem 2rem 2rem 2rem;
+
+}
+
+.text {
+  width: 30%;
+  flex-direction: column;
+
+}
+
+.text h1 {
+  font-size: 3rem;
+  font-family: 'Muli', sans-serif;
+  font-weight: bold;
+
+}
+
+
+.text h3 {
+  font-size: 1.75rem;
+  font-family: 'Muli', sans-serif;
+  margin: 30px auto;
+
+}
+
+.print {
+  background-color: gray;
+  background-size: cover;
+  text-align: center;
+  padding: 8px;
+
+}
+
+.print a {
+  font-size: 1rem;
+   font-family: 'Muli', sans-serif;
+   color: white;
+
+}
+
+/* the secondary banner */
+.second-banner {
+  width: 100%;
+  display: flex;
+
+}
+
+.first-text {
   width: 60%;
 
 }
-.text {
-  width: 40%;
+
+.second-banner .second-column {
+  display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+
+
+}
+
+.block {
+  width: 100%;
+  display: flex;
+  border: 1px solid;
+  height: auto;
+}
+
+.second-column {
+  width: 40%;
+
+}
+
+.block img {
+  width: 35%;
+
+}
+
+.block .small-text {
+  width: 65%;
 
 }
