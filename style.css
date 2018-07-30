@@ -24,12 +24,17 @@ html {
 }
 /* colmar logo (picture and text) */
 .logo {
-  height: ;
-  display: inline-block;
-  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  font-size: 1.75rem;
   margin-left: 1.5rem;
   flex-grow: 1;
+  height: 4rem;
 
+}
+
+.logo img {
+  height: 3rem;
 }
 
 .logo .first-word {
@@ -65,3 +70,34 @@ html {
 }
 
 /* the main banner */
+.banner {
+  display: flex;
+  justify-content: space-around;
+  background-color: #D2D9DE;
+  width: 100%;
+
+}
+
+.banner .image {
+  padding: 6rem 1.5rem 2rem 1.5rem;
+
+}
+
+.banner img {
+  display: flex;
+  width: 600px;
+}
+
+
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+}
+
+.banner h1 {
+  font-family: 'Muli', sans-serif;
+  font-size: 3rem;
+
+}
