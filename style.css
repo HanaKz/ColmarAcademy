@@ -74,6 +74,7 @@ html {
   width: 100%;
   background-color: #e6e6e6;
   padding-top: 4rem;
+  align-items: center;
 
 }
 
@@ -113,7 +114,7 @@ html {
   background-color: gray;
   background-size: cover;
   text-align: center;
-  padding: 8px;
+  padding: 15px 8px;
 
 }
 
@@ -130,7 +131,7 @@ html {
   width: 100%;
 
 }
-
+/* first column */
 .second-banner .first-column {
   width: 60%;
   padding: 2rem 2rem 2rem 2rem;
@@ -138,9 +139,11 @@ html {
 
 .first-column img{
   width: 100%;
+  height: auto;
+
 
 }
-
+/* second column */
 .second-banner .second-column {
   display: flex;
   flex-direction: column;
@@ -153,7 +156,7 @@ html {
   width: 100%;
   display: flex;
   border: 1px solid #EDF1F4;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
 
 
@@ -166,8 +169,8 @@ html {
 }
 
 .block img {
-  width: 35%;
-  padding: 16px;
+  width: 75%;
+  padding: 1rem;
 
 }
 
@@ -176,12 +179,46 @@ img .img{
 
 }
 .block .small-text {
-  width: 65%;
+  width: 45%;
 
 }
 
-.block .guest {
-  background-color: #EDF1F4;
-   
+.block.guest {
+  background-color: #E7E9EB;
+
+
+}
+
+/* classes options */
+#learning {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  background-color: #e6e6e6;
+  align-content: space-between;
+
+}
+
+.start img {
+  display: block;
+  height: auto;
+  width: 100%;
+  flex: calc(100/auto);
+
+}
+
+.start span {
+  display: block;
+  text-align: center;
+  background-color: white;
+
+
+}
+
+.start {
+  width: 25%;
+  display: inline-block;
+  padding: 32px 32px 32px 72px;
 
 }
