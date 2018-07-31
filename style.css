@@ -126,13 +126,18 @@ html {
 
 /* the secondary banner */
 .second-banner {
-  width: 100%;
   display: flex;
+  width: 100%;
 
 }
 
-.first-text {
+.second-banner .first-column {
   width: 60%;
+  padding: 2rem 2rem 2rem 2rem;
+}
+
+.first-column img{
+  width: 100%;
 
 }
 
@@ -140,28 +145,43 @@ html {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-end
-
+  padding: 16px 0px 32px 0px;
 
 }
 
 .block {
   width: 100%;
   display: flex;
-  border: 1px solid;
+  border: 1px solid #EDF1F4;
+  justify-content: space-between;
+  align-items: center;
+
+
 }
 
 .second-column {
-  width: 40%;
+  width: 460px;
+  height: auto;
 
 }
 
 .block img {
   width: 35%;
+  padding: 16px;
 
 }
 
+img .img{
+  width: 100%;
+
+}
 .block .small-text {
   width: 65%;
+
+}
+
+.block .guest {
+  background-color: #EDF1F4;
+   
 
 }
