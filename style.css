@@ -5,8 +5,6 @@ html {
 
 .flexcontainer {
   display: flex;
-  justify-content: ;
-  align-items: center;
   width: 100%;
 
 }
@@ -18,6 +16,7 @@ html {
   background-color: #FDFEFE;
   height: 4rem;
   width: 100%;
+  align-items: center;
   vertical-align: baseline;
 
 }
@@ -74,7 +73,14 @@ html {
   width: 100%;
   background-color: #e6e6e6;
   padding-top: 4rem;
-  align-items: center;
+
+
+}
+
+.banner-text {
+display: flex;
+align-items: center;
+width: 30%;
 
 }
 
@@ -90,8 +96,7 @@ html {
 }
 
 .text {
-  width: 30%;
-  flex-direction: column;
+  width: 100%;
 
 }
 
@@ -120,8 +125,8 @@ html {
 
 .print a {
   font-size: 1rem;
-   font-family: 'Muli', sans-serif;
-   color: white;
+  font-family: 'Muli', sans-serif;
+  color: white;
 
 }
 
@@ -129,25 +134,25 @@ html {
 .second-banner {
   display: flex;
   width: 100%;
+  justify-content: space-between;
 
 }
 /* first column */
-.second-banner .first-column {
+.first-column {
   width: 60%;
-  padding: 2rem 2rem 2rem 2rem;
+  padding: 32px 24px;
+
 }
 
 .first-column img{
   width: 100%;
-  height: auto;
-
+  padding-bottom: 32px;
 
 }
 /* second column */
 .second-banner .second-column {
   display: flex;
   flex-direction: column;
-  align-items: center;
   padding: 16px 0px 32px 0px;
 
 }
@@ -159,27 +164,52 @@ html {
   justify-content: flex-start;
   align-items: center;
 
-
 }
 
 .second-column {
-  width: 460px;
-  height: auto;
+  width: 40%;
+  padding-top: 32px;
 
 }
 
 .block img {
-  width: 75%;
-  padding: 1rem;
-
-}
-
-img .img{
+  display: inline-block;
   width: 100%;
 
 }
+
 .block .small-text {
-  width: 45%;
+  display: inline-block;
+  font-family:
+
+}
+
+.small-image {
+width: 35%;
+padding: 1rem;
+
+}
+
+.small-text {
+width: 65%;
+font-family: 'Muli', sans-serif;
+line-height: 1.7rem;
+color: #7D8182;
+
+}
+
+.small-text h4 {
+  font-size: 1.5rem;
+
+}
+
+.small-text p {
+  font-size: 1rem;
+
+}
+
+.small-text a {
+color: #8CCDF2;
 
 }
 
@@ -197,6 +227,7 @@ img .img{
   flex-direction: row;
   background-color: #e6e6e6;
   align-content: space-between;
+  padding: 0 72px;
 
 }
 
@@ -219,6 +250,16 @@ img .img{
 .start {
   width: 25%;
   display: inline-block;
-  padding: 32px 32px 32px 72px;
+  padding: 0 16px;
+
+}
+
+.learning-title {
+  padding: 32px 0;
+  width: 100%;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: bold;
+  font-family: 'Muli', sans-serif;
 
 }
