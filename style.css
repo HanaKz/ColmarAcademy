@@ -1,5 +1,6 @@
 html {
   font-size: 16px;
+  /* overflow-x: hidden;*/
 
 }
 
@@ -116,7 +117,7 @@ width: 30%;
 }
 
 .print {
-  background-color: gray;
+  background-color: #3C4042;
   background-size: cover;
   text-align: center;
   padding: 15px 8px;
@@ -149,6 +150,27 @@ width: 30%;
   padding-bottom: 32px;
 
 }
+
+.first-text {
+  font-family: 'Muli', sans-serif;
+  line-height: 1.6rem;
+  text-align: left;
+
+}
+
+.first-text h1 {
+  color:#3C4042;
+  font-size: 3rem;
+  padding-top: 2rem;
+
+}
+
+.first-text h3, .first-text h5 {
+  color: #7D8182;
+  padding-top: 1.5rem;
+
+}
+
 /* second column */
 .second-banner .second-column {
   display: flex;
@@ -226,8 +248,7 @@ color: #8CCDF2;
   flex-wrap: wrap;
   flex-direction: row;
   background-color: #e6e6e6;
-  align-content: space-between;
-  padding: 0 72px;
+  align-items: center;
 
 }
 
@@ -235,24 +256,49 @@ color: #8CCDF2;
   display: block;
   height: auto;
   width: 100%;
-  flex: calc(100/auto);
 
 }
 
 .start span {
   display: block;
-  text-align: center;
-  background-color: white;
+  text-align: left;
+  background-color: #FDFEFE;
+  font-family: 'Muli', sans-serif;
+  line-height: 1.5rem;
+  padding-left: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 24px;
 
+}
+
+.start span h4 {
+  color: #3C4042;
+  font-size: 1.7rem;
+  font-weight: bold;
+  padding: 8px 0px;
+  
+}
+
+.start span h5 {
+  padding: 0.5rem auto;
+  text-transform: uppercase;
+  font-size: 1.3rem;
+
+}
+
+.start span h5, .start span p {
+  color: #7D8182;
+  font-size: 1rem;
 
 }
 
 .start {
   width: 25%;
   display: inline-block;
-  padding: 0 16px;
+  vertical-align: top;
+  margin: 0px 2rem 2rem 0px;
 
-}
+  }
 
 .learning-title {
   padding: 32px 0;
@@ -261,5 +307,16 @@ color: #8CCDF2;
   font-size: 3rem;
   font-weight: bold;
   font-family: 'Muli', sans-serif;
+
+}
+
+.learning-content {
+  text-align: center;
+
+}
+
+
+.column-one video {
+  max-width: 100%;
 
 }
