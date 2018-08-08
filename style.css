@@ -30,60 +30,7 @@ body {
   display: none;
 }
 
-@media only screen and (max-width: 480px) {
-  body {
-    font-size: 12px;
-  }
 
-h1 {
-  font-size: .75rem;
-
-}
-.header {
-  display: none;
-
-}
-
-.headers {
-background-color: #FDFEFE;
-position: fixed;
-z-index: 100;
-width: 100%;
-display: flex;
-align-items: center;
-height: 64px;
-justify-content: space-around;
-
-}
-  .flexcontainer {
-  flex-direction: column;
-  width: 100%;
-
-}
-
-.image {
-  width: 100%;
-  align-self: center;
-  padding: 0;
-
-}
-
-.img img {
-  width: 100%;
-
-}
-
-.banner-text {
-  align-self: center;
-  width: 100%;
-
-}
-
-.text h1 {
-  font-size: .75rem;
-}
-
-}
 /* colmar logo (picture and text) */
 .logo {
   display: flex;
@@ -450,4 +397,61 @@ div .terms {
 div .copyright {
   flex-grow: 1;
 
+}
+
+@media only screen and (max-width: 480px) {
+  body {
+    font-size: 12px;
+  }
+
+h1 {
+  font-size: .75rem;
+
+}
+.header {
+  display: none;
+
+}
+
+.headers {
+background-color: #FDFEFE;
+z-index: 100;
+display: flex;
+align-items: center;
+height: 64px;
+justify-content: space-around;
+
+}
+  .flexcontainer {
+  flex-direction: column;
+
+}
+
+.banner {
+  padding-top: 0;
+  padding-bottom: 2rem;
+
+}
+.image {
+  width: 100%;
+  align-self: center;
+  padding: 0 .10rem;
+}
+
+.img img {
+  width: 100%;
+
+}
+
+.banner-text {
+  align-self: center;
+  width: 100%;
+  padding-top: 2rem;
+  padding-left: 1rem;
+
+}
+
+.text a {
+  align-self: center;
+  padding: 1rem 10rem;
 }
