@@ -6,7 +6,6 @@ html {
 
 .flexcontainer {
   display: flex;
-  width: 100%;
 
 }
 
@@ -36,6 +35,10 @@ body {
     font-size: 12px;
   }
 
+h1 {
+  font-size: .75rem;
+
+}
 .header {
   display: none;
 
@@ -50,11 +53,34 @@ display: flex;
 align-items: center;
 height: 64px;
 justify-content: space-around;
+
+}
+  .flexcontainer {
+  flex-direction: column;
+  width: 100%;
+
 }
 
-.banner {
-  display: flex;
-  flex-direction: column;
+.image {
+  width: 100%;
+  align-self: center;
+  padding: 0;
+
+}
+
+.img img {
+  width: 100%;
+
+}
+
+.banner-text {
+  align-self: center;
+  width: 100%;
+
+}
+
+.text h1 {
+  font-size: .75rem;
 }
 
 }
@@ -112,11 +138,9 @@ justify-content: space-around;
 
 /* the main banner */
 .banner {
-  display: flex;
-  width: 100%;
   background-color: #e6e6e6;
   padding-top: 4rem;
-
+  display: flex;
 
 }
 
