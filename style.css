@@ -12,6 +12,7 @@ html {
 body {
   font-family: 'Muli', sans-serif;
   font-size: 1rem;
+
 }
 
 /* the header */
@@ -447,11 +448,81 @@ justify-content: space-around;
   align-self: center;
   width: 100%;
   padding-top: 2rem;
-  padding-left: 1rem;
 
 }
 
 .text a {
   align-self: center;
   padding: 1rem 10rem;
+
+}
+
+.first-column {
+  display: none;
+}
+
+.second-column {
+  width: 100%;
+  padding-top: 1rem;
+  flex-direction: column;
+}
+
+.block {
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.small-image {
+ width: 100%;
+ height: auto;
+}
+
+
+/*.second-banner .second-column {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 0 2rem 0;
+
+}
+
+.block {
+  width: 100%;
+  display: flex;
+  border: 1px solid #EDF1F4;
+  justify-content: flex-start;
+  align-items: center;
+
+}
+
+.second-column {
+  width: 40%;
+  padding-top: 2rem;
+
+}
+
+.block img {
+  display: inline-block;
+  width: 100%;
+
+}
+
+.block .small-text {
+  display: inline-block;
+
+}
+
+.small-image {
+width: 35%;
+padding: 1rem;
+
+}
+
+.small-text {
+width: 65%;
+font-family: 'Muli', sans-serif;
+line-height: 1.7rem;
+color: #7D8182;
+
+}
+*/
 }
