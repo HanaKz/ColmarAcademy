@@ -1,6 +1,6 @@
 html {
   font-size: 16px;
-  /* overflow-x: hidden;*/
+   overflow-x: hidden;
 
 }
 
@@ -400,10 +400,18 @@ div .copyright {
 
 }
 
+.small-image .mobile-img {
+  display: none;
+}
+
+.learning-stuff .stuff{
+  display: none;
+}
+
 @media only screen and (max-width: 480px) {
   body {
     font-size: 12px;
-  }
+    }
 
 h1 {
   font-size: .75rem;
@@ -421,6 +429,7 @@ display: flex;
 align-items: center;
 height: 64px;
 justify-content: space-around;
+margin: 0 1rem;
 
 }
   .flexcontainer {
@@ -431,13 +440,14 @@ justify-content: space-around;
 .banner {
   padding-top: 0;
   padding-bottom: 2rem;
+  display: block;
 
 }
 .image {
   width: 100%;
   align-self: center;
-  padding: 0 .10rem;
-}
+  padding-top: 0;
+  }
 
 .img img {
   width: 100%;
@@ -447,13 +457,22 @@ justify-content: space-around;
 .banner-text {
   align-self: center;
   width: 100%;
-  padding-top: 2rem;
+  padding-top: 1rem;
+  padding-left: 0;
 
+}
+
+.text {
+  flex-wrap: wrap;
+}
+
+.text h1 {
+  font-size: 2.3rem;
 }
 
 .text a {
   align-self: center;
-  padding: 1rem 10rem;
+  padding: 1rem 4rem;
 
 }
 
@@ -469,60 +488,74 @@ justify-content: space-around;
 
 .block {
   flex-direction: column;
+}
+
+.block .small-image {
   padding: 1rem;
 }
 
 .small-image {
  width: 100%;
  height: auto;
+ display: flex;
+}
+
+.small-image .img  {
+  display: none;
+
 }
 
 
-/*.second-banner .second-column {
-  display: flex;
-  flex-direction: column;
-  padding: 1rem 0 2rem 0;
-
-}
-
-.block {
+.small-image .mobile-img {
   width: 100%;
-  display: flex;
-  border: 1px solid #EDF1F4;
-  justify-content: flex-start;
-  align-items: center;
+  display: block;
+}
+
+
+.start {
+  display: none;
+}
+
+.learning {
+  background-color: white;
+
+}
+.stuff {
+  background-color: #E7E9EB;
+  margin-top: .25rem;
+  padding: 1rem 0 24px 1rem;
 
 }
 
-.second-column {
-  width: 40%;
+.learning-stuff .stuff {
+  display: block;
+}
+
+.stuff:hover {
+  background-color: #BDC3C7;
+  transition: background-color 1s ease-in 0;
+}
+
+.learning-title {
+  font-size: 3rem;
+  text-align: center;
   padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+
+.stuff h3 {
+  font-family: 'Muli', sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
 
 }
 
-.block img {
-  display: inline-block;
+.second-banner .second-column{
+  display: none;
+}
+
+.first-column video{
   width: 100%;
-
+  display: flex;
 }
-
-.block .small-text {
-  display: inline-block;
-
-}
-
-.small-image {
-width: 35%;
-padding: 1rem;
-
-}
-
-.small-text {
-width: 65%;
-font-family: 'Muli', sans-serif;
-line-height: 1.7rem;
-color: #7D8182;
-
-}
-*/
 }
