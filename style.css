@@ -323,6 +323,7 @@ color: #8CCDF2;
   display: inline-block;
   vertical-align: top;
   margin: 1rem 1rem;
+  min-height: 20px;
 
   }
 
@@ -475,8 +476,7 @@ margin: 0 1rem;
   padding: 1rem 4rem;
 
 }
-
-.first-column {
+.resources {
   display: none;
 }
 
@@ -550,12 +550,36 @@ margin: 0 1rem;
 
 }
 
-.second-banner .second-column{
+.things {
+  display: none;
+
+}
+
+.disappear .block{
   display: none;
 }
 
-.first-column video{
+.first-column video {
   width: 100%;
-  display: flex;
+
+
+}
+
+.second-banner .second-column {
+  padding: 0;
+}
+
+.third-banner .second-banner .first-column {
+  width: 100%;
+  padding: 0;
+  padding-bottom: 1.5rem;
+}
+
+.footers .terms {
+  display: none;
+}
+
+.footer .copyright {
+  padding: 1rem 0;
 }
 }
