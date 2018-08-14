@@ -23,14 +23,13 @@ body {
   height: 4rem;
   width: 100%;
   align-items: center;
-  vertical-align: baseline;
 
 }
 
 .headers {
   display: none;
 }
-
+/* end of header */
 
 /* colmar logo (picture and text) */
 .logo {
@@ -58,6 +57,7 @@ body {
   font-family: 'Raleway', sans-serif;
   color: gray;
 }
+/* end of colmar logo */
 
 /* the "links" */
 .links {
@@ -83,6 +83,7 @@ body {
   display: inline-block;
 
 }
+/* end of links */
 
 /* the main banner */
 .banner {
@@ -100,6 +101,7 @@ body {
   width: 60%;
   padding: 2rem 2rem 2rem 2rem;
 }
+
 /* text of the first banner */
 .banner-text {
 display: flex;
@@ -146,7 +148,9 @@ width: 30%;
   transition: background-color 1s ease-in 0;
 
 }
-/* the secondary banner */
+/* end of main banner */
+
+/* the second banner */
 .second-banner {
   display: flex;
   width: 100%;
@@ -185,6 +189,7 @@ width: 30%;
   padding-top: 1.5rem;
 
 }
+/* end of first column */
 
 /* second column */
 .second-banner .second-column {
@@ -198,25 +203,17 @@ width: 30%;
   width: 100%;
   display: flex;
   border: 1px solid #EDF1F4;
-  justify-content: flex-start;
   align-items: center;
 
 }
 
 .second-column {
   width: 40%;
-  padding-top: 2rem;
 
 }
 
 .block img {
-  display: inline-block;
   width: 100%;
-
-}
-
-.block .small-text {
-  display: inline-block;
 
 }
 
@@ -261,13 +258,12 @@ color: #8CCDF2;
 
 
 }
+/* end of second column */
+/* end of second banner */
 
 /* classes options */
 .learning {
   width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
   background-color: #e6e6e6;
   padding-bottom: 2rem;
 
@@ -275,6 +271,7 @@ color: #8CCDF2;
 
 .learning-content {
   margin: auto 4.5rem;
+  text-align: center;
 
 }
 
@@ -294,6 +291,7 @@ color: #8CCDF2;
   padding-left: 1rem;
   padding-top: 1rem;
   padding-bottom: 1.5rem;
+  min-height: 160px;
 
 }
 
@@ -323,7 +321,6 @@ color: #8CCDF2;
   display: inline-block;
   vertical-align: top;
   margin: 1rem 1rem;
-  min-height: 20px;
 
   }
 
@@ -338,10 +335,7 @@ color: #8CCDF2;
 }
 
 
-.learning-content {
-  text-align: center;
-
-}
+/* end of classes options */
 
 /* third banner */
 .third-banner {
@@ -374,6 +368,7 @@ color: #8CCDF2;
   line-height: 1.3rem;
 
 }
+/* end of third banner */
 
 /* footer */
 .footer {
@@ -385,7 +380,6 @@ color: #8CCDF2;
 }
 .footers {
 border-top: 0.0625rem solid  #D7DBDD;
-align-items: center;
 padding-top: 1rem;
 padding-bottom: 1rem;
 
@@ -408,6 +402,7 @@ div .copyright {
 .learning-stuff .stuff{
   display: none;
 }
+/* end of banner */
 
 @media only screen and (max-width: 480px) {
   body {
@@ -418,6 +413,8 @@ h1 {
   font-size: .75rem;
 
 }
+
+/* the mobile header */
 .header {
   display: none;
 
@@ -433,11 +430,14 @@ justify-content: space-around;
 margin: 0 1rem;
 
 }
+
+/* end of mobile header */
   .flexcontainer {
   flex-direction: column;
 
 }
 
+/* the first banner */
 .banner {
   padding-top: 0;
   padding-bottom: 2rem;
@@ -476,10 +476,14 @@ margin: 0 1rem;
   padding: 1rem 4rem;
 
 }
+
+/* end of the first banner */
+
 .resources {
   display: none;
 }
 
+/* mobile version second banner */
 .second-column {
   width: 100%;
   padding-top: 1rem;
@@ -510,8 +514,9 @@ margin: 0 1rem;
   width: 100%;
   display: block;
 }
+/* end of mobile second banner */
 
-
+/* the different courses (buttons)*/
 .start {
   display: none;
 }
@@ -536,18 +541,21 @@ margin: 0 1rem;
   transition: background-color 1s ease-in 0;
 }
 
-.learning-title {
-  font-size: 3rem;
-  text-align: center;
-  padding-top: 2rem;
-  padding-bottom: 1rem;
-}
-
 .stuff h3 {
   font-family: 'Muli', sans-serif;
   font-size: 2rem;
   font-weight: bold;
 
+}
+
+/* end of the different courses (buttons) */
+
+/* the third banner */
+.learning-title {
+  font-size: 3rem;
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
 }
 
 .things {
@@ -562,7 +570,6 @@ margin: 0 1rem;
 .first-column video {
   width: 100%;
 
-
 }
 
 .second-banner .second-column {
@@ -575,6 +582,9 @@ margin: 0 1rem;
   padding-bottom: 1.5rem;
 }
 
+/* end of the third banner */
+
+/* the mobile footer */
 .footers .terms {
   display: none;
 }
@@ -582,4 +592,5 @@ margin: 0 1rem;
 .footer .copyright {
   padding: 1rem 0;
 }
+/* end of the mobile footer */
 }
